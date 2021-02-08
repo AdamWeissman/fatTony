@@ -1,9 +1,5 @@
 const fetch = require('node-fetch');
 
-const theShipment = [
-  { sampleBot: "https://s0crates.herokuapp.com/sampleBot/chatAPI"}, 
-  { ghostWriter: "https://s0crates.herokuapp.com/gh0stwr1ter/chatAPI"}] 
-
 function makeTheDrop (url) {
     return fetch(url)
       .then(data => data.json())
@@ -32,6 +28,10 @@ function fatTony(dahShipment, theMainAttraction) {
     .then(theMainAttraction)
 }
 
+//===============CODE ABOVE HERE IS WHAT FAT TONY NEEDS TO RUN===============
+
+//===============CODE BELOW HERE IS WHAT YOU  NEED IN ORDER TO RUN ==========
+
 function theMainAttraction(theLedger){
   //YOU CAN NOW MUTATE DATA AS IF IT WERE A REGULAR VARIABLE!!!
   const localLedger = theLedger
@@ -40,6 +40,10 @@ function theMainAttraction(theLedger){
   console.log(localLedger)
   console.log("WRITE THE REST OF YOUR PROGRAM IN HERE")
 }
+
+const theShipment = [
+  { sampleBot: "https://s0crates.herokuapp.com/sampleBot/chatAPI"}, 
+  { ghostWriter: "https://s0crates.herokuapp.com/gh0stwr1ter/chatAPI"}] 
 
 //RUN YOUR PROGRAM LIKE SO: 
 fatTony(theShipment, theMainAttraction)
