@@ -32,7 +32,7 @@ function fatTony(dahShipment, theMainAttraction) {
 
 //===============CODE BELOW HERE IS WHAT YOU  NEED IN ORDER TO RUN ==========
 
-function theMainAttraction(theLedger){
+function theMainAttraction(theLedger){ // THIS IS YOUR MAIN LOOP
   //YOU CAN NOW MUTATE DATA AS IF IT WERE A REGULAR VARIABLE!!!
   const localLedger = theLedger
   console.log(localLedger)
