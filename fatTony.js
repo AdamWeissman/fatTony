@@ -37,10 +37,10 @@ function theFattestTony() {
 }
 
 
-
 //===============CODE ABOVE HERE IS WHAT FAT TONY NEEDS TO RUN===============
 
-//===============CODE BELOW HERE IS WHAT YOU  NEED IN ORDER TO RUN ==========
+//UNCOMMENT THE CODE BELOW FOR AN EXAMPLE OF WHAT YOU NEED IN ORDER TO RUN ==
+
 
 function theMainAttraction(theLedger) { // THIS IS YOUR MAIN LOOP
   //YOU CAN NOW MUTATE DATA AS IF IT WERE A REGULAR VARIABLE!!!

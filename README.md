@@ -10,3 +10,28 @@ While Fat Tony isn't a solution for every situation, **it enables you to capture
 
 As Tony Soprano might say: *"The dog not only fetches, but it STAYS."*
 
+## EXAMPLE OF HOW TO USE FAT TONY
+
+const theShipment = [
+  { keyForFetch1: ""url_for_fetch1"" },
+  { keyForFetch2: "url_for_fetch2" },
+  { keyForFetch3: "url_for_fetch3"}
+]
+
+function runMyProgram(receivesAnObjectWithTheResultsFromTheShipment) {
+  const variableForLocalUse = receivesAnObjectWithTheResultsFromTheShipment 
+  const accessForResultOfFetch1 = variableForLocalUse["keyForFetch1"]
+  const accessForResultOfFetch2 = variableForLocalUse["keyForFetch2"]
+  const accessForResultOfFetch3 = variableForLocalUse["keyForFetch3"]
+
+  // you don't have to do it like that...
+  // but you can now write your code in such a way that you can treat the
+  // results of the fetch almost like local variables
+  // you can also nest this logic
+}
+
+let fatTony = theFattestTony()
+fatTony(theShipment, runMyProgram)
+
+The example in fatTony.js is available for testing... just uncomment and use!!
+
