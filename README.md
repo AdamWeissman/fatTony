@@ -12,12 +12,15 @@ As Tony Soprano might say: *"The dog not only fetches, but it STAYS."*
 
 ## EXAMPLE OF HOW TO USE FAT TONY
 
+```
 const theShipment = [
   { keyForFetch1: ""url_for_fetch1"" },
   { keyForFetch2: "url_for_fetch2" },
   { keyForFetch3: "url_for_fetch3"}
 ]
+```
 
+```
 function runMyProgram(receivesAnObjectWithTheResultsFromTheShipment) {
   const variableForLocalUse = receivesAnObjectWithTheResultsFromTheShipment 
   const accessForResultOfFetch1 = variableForLocalUse["keyForFetch1"]
@@ -29,9 +32,12 @@ function runMyProgram(receivesAnObjectWithTheResultsFromTheShipment) {
   // results of the fetch almost like local variables
   // you can also nest this logic
 }
+```
 
+```
 let fatTony = theFattestTony()
 fatTony(theShipment, runMyProgram)
+```
 
 The example in fatTony.js is available for testing... just uncomment and use!!
 
