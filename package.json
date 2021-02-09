@@ -1,13 +1,13 @@
 {
-  "name": "ideaTest",
+  "name": "fattony",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Fat Tony takes two arguments, an array of objects to fetch from and the 'main function' that runs your program. Its purpose is to make it possible to treat the result of a promise like a regular variable without having to deal with 'then'.",
+  "main": "fattony.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["promises", "fetch"],
+  "author": "Adam Weissman",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.1"
