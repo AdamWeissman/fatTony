@@ -14,7 +14,7 @@ As Tony Soprano might say: *"The dog not only fetches, but it STAYS."*
 
 ```
 const theShipment = [
-  { keyForFetch1: ""url_for_fetch1"" },
+  { keyForFetch1: "url_for_fetch1" },
   { keyForFetch2: "url_for_fetch2" },
   { keyForFetch3: "url_for_fetch3"}
 ]
