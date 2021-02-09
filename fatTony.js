@@ -41,7 +41,7 @@ function theFattestTony() {
 
 //UNCOMMENT THE CODE BELOW FOR AN EXAMPLE OF WHAT YOU NEED IN ORDER TO RUN ==
 
-
+/*
 function theMainAttraction(theLedger) { // THIS IS YOUR MAIN LOOP
   //YOU CAN NOW MUTATE DATA AS IF IT WERE A REGULAR VARIABLE!!!
   const localLedger = theLedger
@@ -80,7 +80,6 @@ function theMainAttraction(theLedger) { // THIS IS YOUR MAIN LOOP
   // WRITE THE REST OF YOUR PROGRAM INSIDE THE MAIN ATTRACTION, OR WHATEVER YOU WANT TO CALL IT
 }
 
-
 const theShipment = [
   { sampleBot: "https://s0crates.herokuapp.com/sampleBot/chatAPI" },
   { ghostWriter: "https://s0crates.herokuapp.com/gh0stwr1ter/chatAPI" }]
@@ -88,3 +87,5 @@ const theShipment = [
 //RUN YOUR PROGRAM LIKE SO: 
 let antonio = theFattestTony()
 antonio(theShipment, theMainAttraction)
+
+*/
