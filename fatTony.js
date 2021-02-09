@@ -36,6 +36,7 @@ function theFattestTony() {
 
 }
 
+exports.fatTony = theFattestTony()
 
 //===============CODE ABOVE HERE IS WHAT FAT TONY NEEDS TO RUN===============
 

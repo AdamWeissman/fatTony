@@ -35,8 +35,8 @@ function runMyProgram(receivesAnObjectWithTheResultsFromTheShipment) {
 ```
 
 ```
-let fatTony = theFattestTony()
-fatTony(theShipment, runMyProgram)
+let myFatTony = fatTony //required from the package
+myFatTony(theShipment, runMyProgram)
 ```
 
 The example in fatTony.js is available for testing... just uncomment and use!!
